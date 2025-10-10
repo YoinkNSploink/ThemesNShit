@@ -1,0 +1,25 @@
+font_size 10
+font_family Monospace
+background_opacity 0.90
+allow_remote_control yes
+
+foreground #dcdcdc
+background #141414
+
+color0 #2b2b2b
+color1 #ec8713
+color2 #ec7513
+color3 #ed9a15
+color4 #de8e49
+color5 #8a623f
+color6 #969696
+color7 #d8d8d8
+
+color8 #2b2b2b
+color9 #ec8713
+color10 #ec7513
+color11 #ed9a15
+color12 #de8e49
+color13 #8a623f
+color14 #969696
+color15 #d8d8d8

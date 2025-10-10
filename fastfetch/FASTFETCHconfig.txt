@@ -1,0 +1,139 @@
+ 
+// Load with --load-config examples/2.jsonc
+// Note that you must replace the image path to an existing image to display it.
+// 󰏖   󰧨 󰉼 󰀻  󰸉 󰌢 󰍛  󰑭 󰓡 󰅐 󰍹  󰝚 󰇄 󰍛 󰩟 󰂄  󰊚    A ✦✷✶✸✮✭✮✵✪✦✱✰⭐ 《》
+
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+      "type": "file",
+      "color": {"34": "yellow"},
+      "source": "/home/shuriken/.config/fastfetch/Logo.txt"
+
+
+     },
+    "display": {
+        "separator": "  ▶ ",
+        "color": {
+             "separator": "36"
+         },
+        "constants": [
+            "────────────" // {$1}, used in Custom module
+        ],
+        "key": {
+            "type": "icon",
+            "paddingLeft": 2,
+
+        }
+    },
+    "modules": [
+        {
+            "type": "custom", // HardwareStart
+            // {#1} is equivalent to `\u001b[1m`. {#} is equivalent to `\u001b[m`
+            "format": "{#36}┌{$1}{#33}✶ Hardware Information✶{#} {#36}{$1}┐",
+
+        },
+        {
+        "type": "host",
+        "keyIcon": "󰌢",
+        "keyColor": "33"
+        },
+        {
+        "type": "cpu",
+        "key": "󰍛",
+        "keyColor": "33"
+        },
+        {
+        "type": "gpu",
+        "keyIcon": "󰊚",
+        "keyColor": "33"
+        },
+        {
+        "type": "memory",
+        "keyIcon": "󰑭",
+        "keyColor": "33"
+        },
+        {
+        "type": "disk",
+        "keyIcon": "",
+        "keyColor": "33"
+        },
+        {
+        "type": "display",
+        "keyIcon": "󰍹",
+        "keyColor": "33"
+        },
+        {
+        "type": "battery",
+        "keyColor": "33"
+        },
+        {
+            "type": "custom", // SoftwareStart
+            "format": "{#36}├{$1}{#32}✶ Software Information✶{#} {#36}{$1}┤"
+        },
+        {
+            "type": "title",
+            "keyIcon": "",
+            "key": "Title", // Title module has no key by default, so that icon is not displayed
+            "format": "{#32}{user-name}{#38}✱{#32}{host-name}",
+            "keyColor": "32"
+        },
+        {
+        "type": "os",
+        "keyIcon": "",
+        "keyColor": "32"
+        },
+        {
+        "type": "kernel",
+        "keyIcon": "",
+        "keyColor": "32"
+        },
+        {
+        "type": "de",
+        "keyIcon": "󰧨",
+        "keyColor": "32"
+        },
+        {
+        "type": "wm",
+        "keyIcon": "",
+        "keyColor": "32"
+        },
+        {
+        "type": "shell",
+        "keyIcon": "",
+        "keyColor": "32"
+        },
+        {
+        "type": "terminal",
+        "keyIcon": "",
+        "keyColor": "32"
+        },
+        {
+        "type": "terminalfont",
+
+        "keyColor": "32"
+        },
+        {
+        "type": "wallpaper",
+        "keyIcon": "",
+        "keyColor": "32"
+        },
+        {
+        "type": "packages",
+        "keyIcon": "󰏖",
+        "keyColor": "32"
+        },
+        {
+        "type": "uptime",
+        "keyIcon": "󰅐",
+        "keyColor": "32"
+        },
+
+
+        {
+            "type": "custom", // InformationEnd 《 》
+            "format": "{#36}└──────────────── 》{#31} {#32}  {#33}  {#34}  {#35}  {#36}  {#37}  {#38}   {#36}《───┘"
+        },
+
+    ]
+}
