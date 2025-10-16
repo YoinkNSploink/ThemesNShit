@@ -236,8 +236,8 @@
  gradient_color_4 = '#ff8b0f'
  gradient_color_5 = '#fa7500'
  gradient_color_6 = '#fa7500'
- gradient_color_7 = '#523e4d'
- gradient_color_8 = '#523e4d'
+ gradient_color_7 = '#79ab55'
+ gradient_color_8 = '#3c784b'
 
 
 

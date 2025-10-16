@@ -7,19 +7,19 @@ foreground #dcdcdc
 background #141414
 
 color0 #2b2b2b
-color1 #ff8b0f
-color2 #ff9f0f
-color3 #fa7500
+color1 #eda01c
+color2 #ed861c
+color3 #ed691d
 color4 #5d4657
-color5 #2a6b3a
-color6 #3d6146
+color5 #3c784b
+color6 #79ab55
 color7 #e8e8e8
 
 color8 #2b2b2b
-color9 #ff8b0f
-color10 #ff9f0f
-color11 #fa7500
+color9 #eda01c
+color10 #ed861c
+color11 #ed691d
 color12 #5d4657
-color13 #2a6b3a
-color14 #3d6146
+color13 #3c784b
+color14 #79ab55
 color15 #e8e8e8

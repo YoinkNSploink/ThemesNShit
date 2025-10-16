@@ -7,7 +7,7 @@
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
       "type": "file",
-      "color": {"1" : "red"},
+      "color": {"1" : "green"},
       "source": "/home/shuriken/.config/fastfetch/Bon.txt"
 
 
@@ -30,68 +30,68 @@
         {
             "type": "custom", // HardwareStart
             // {#1} is equivalent to `\u001b[1m`. {#} is equivalent to `\u001b[m`
-            "format": "{#31}┌{$1}{#31} 󰍹 Hardware Information 󰍹{#} {#31}{$1}┐",
+            "format": "{#33}┌{$1}{#33} 󰍹 Hardware Information 󰍹{#} {#33}{$1}┐",
 
         },
         
         {
         "type": "host",
         "keyIcon": "󰌢",
-        "keyColor": "31"
+        "keyColor": "33"
         },
         {
         "type": "cpu",
         "key": "󰍛",
-        "keyColor": "31"
+        "keyColor": "33"
         },
         {
         "type": "gpu",
         "keyIcon": "󰊚",
-        "keyColor": "31"
+        "keyColor": "33"
         },
         {
         "type": "memory",
         "keyIcon": "󰑭",
-        "keyColor": "31"
+        "keyColor": "33"
         },
         {
         "type": "disk",
         "keyIcon": "",
-        "keyColor": "31"
+        "keyColor": "33"
         },
         {
         "type": "display",
         "keyIcon": "󰍹",
-        "keyColor": "31"
+        "keyColor": "33"
         },
         {
         "type": "battery",
-        "keyColor": "31"
+        "keyColor": "33"
         },
         {
             "type": "custom",
-            "format": "{#31}└{$1}──────────────────────────{$1}┘"
+            "format": "{#33}└{$1}──────────────────────────{$1}┘"
         },
         {
             "type": "custom", // SoftwareStart
-            "format": "{#33}┌{$1}{#33} 󰏖 Software Information 󰏖{#} {#33}{$1}┐"
+            "format": "{#32}┌{$1}{#32} 󰏖 Software Information 󰏖{#} {#32}{$1}┐"
         },
         {
             "type": "title",
             "keyIcon": "",
             "key": "Title", // Title module has no key by default, so that icon is not displayed
-            "format": "{#35}{user-name}{#35}✱{#35}{host-name}",
-            "keyColor": "33"
+            "format": "{#35}{user-name}{#31}✱{#36}{host-name}",
+            "keyColor": "32"
         },
         {
         "type": "os",
         "keyIcon": "",
-        "keyColor": "33"
+        "keyColor": "32"
         },
         {
         "type": "kernel",
         "keyIcon": "",
-        "keyColor": "33"
+        "keyColor": "32"
         },
         {
         "type": "de",
@@ -101,41 +101,41 @@
         {
         "type": "wm",
         "keyIcon": "",
-        "keyColor": "33"
+        "keyColor": "32"
         },
         {
         "type": "shell",
         "keyIcon": "",
-        "keyColor": "33"
+        "keyColor": "32"
         },
         {
         "type": "terminal",
         "keyIcon": "",
-        "keyColor": "33"
+        "keyColor": "32"
         },
         {
         "type": "terminalfont",
 
-        "keyColor": "33"
+        "keyColor": "32"
         },
         {
         "type": "wallpaper",
         "keyIcon": "",
-        "keyColor": "33"
+        "keyColor": "32"
         },
         {
         "type": "packages",
         "keyIcon": "󰏖",
-        "keyColor": "33"
+        "keyColor": "32"
         },
         {
         "type": "uptime",
         "keyIcon": "󰅐",
-        "keyColor": "33"
+        "keyColor": "32"
         },
         {
             "type": "custom",
-            "format": "{#33}└{$1}──────────────────────────{$1}┘"
+            "format": "{#32}└{$1}──────────────────────────{$1}┘"
         },
 
         {
